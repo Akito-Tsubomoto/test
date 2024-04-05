@@ -1,9 +1,7 @@
 name: 課題起票
 description: File a bug report
 title: "[営業]: "
-labels: ["bug", "triage"]
-assignees:
-  - octocat
+labels: ["調査", "不具合", "追加要望"]
 body:
   - type: markdown
     attributes:
