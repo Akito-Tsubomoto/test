@@ -16,13 +16,9 @@ body:
     required: false
 - type: textarea
   attributes:
-    label: Steps To Reproduce
-    description: Steps to reproduce the behavior.
+    label: 問い合わせ内容
     placeholder: |
-      1. In this environment...
-      1. With this config...
-      1. Run '...'
-      1. See error...
+       なるべく具体的に記載（工事予定)
   validations:
     required: false
 - type: textarea
