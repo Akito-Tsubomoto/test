@@ -1,8 +1,7 @@
-name: Bug Report
+name: 課題起票
 description: File a bug report
-title: "[Bug]: "
+title: "[営業]: "
 labels: ["bug", "triage"]
-projects: ["octo-org/1", "octo-org/44"]
 assignees:
   - octocat
 body:
