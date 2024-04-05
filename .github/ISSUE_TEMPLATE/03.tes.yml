@@ -28,7 +28,7 @@ body:
   attributes:
     label: 関連資料パス
     value: |
-        - \\nlmnistky01\NisDoc\日軽パネルシステム\00.システム再構築\99.障害対応\1.販売\1.基本設計
+        \\nlmnistky01\NisDoc\日軽パネルシステム\00.システム再構築\99.障害対応\1.販売\1.基本設計
     render: markdown
   validations:
     required: false
