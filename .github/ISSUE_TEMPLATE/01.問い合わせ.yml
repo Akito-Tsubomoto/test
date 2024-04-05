@@ -1,7 +1,7 @@
-name: testest
-description: Make a suggestion to improve the content in an existing article.
+name: 問い合わせ
+description: 問い合わせ用
 labels:
-  - content
+  - 問い合わせ
 body:
   - type: markdown
     attributes:
