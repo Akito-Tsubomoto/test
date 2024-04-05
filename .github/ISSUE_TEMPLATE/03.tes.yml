@@ -20,7 +20,7 @@ body:
     placeholder: |
        なるべく具体的に記載（工事予定)
     value: |
-    #【問い合わせ内容】
+    aaa
   validations:
     required: false
 - type: textarea
