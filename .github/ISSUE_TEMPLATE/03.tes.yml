@@ -24,7 +24,7 @@ body:
         【工数】
   validations:
     required: false
-- type: input
+- type: textarea
   attributes:
     label: 関連資料パス
     value: |
