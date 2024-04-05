@@ -1,4 +1,4 @@
-name: 問い合わせ
+name: テスト
 description: File a bug/issue
 title: "[BUG] <title>"
 labels: ["Bug", "Needs Triage"]
