@@ -1,7 +1,7 @@
 name: テスト
-description: File a bug/issue
+description: 問い合わせ
 title: "[BUG] <title>"
-labels: ["Bug", "Needs Triage"]
+labels: ["問い合わせ"]
 body:
 - type: checkboxes
   attributes:
