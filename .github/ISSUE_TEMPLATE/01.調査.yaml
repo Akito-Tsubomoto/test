@@ -1,7 +1,7 @@
 name: 課題起票
 description: File a bug report
-title: "【営業】画面名_事象_(キー情報)"
-labels: ["調査", "追加要望"]
+title: "【営業】画面名_事象_キー情報"
+labels: ["調査"]
 body:
   - type: markdown
     attributes:
