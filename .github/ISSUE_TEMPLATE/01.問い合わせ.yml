@@ -4,7 +4,6 @@ labels:
   - 問い合わせ
 body:
   - type: markdown
-    label:  test
     attributes:
       value: |
         **HUBBERS!!** This is the github/docs open source repo. You may want to open an issue in the internal-only github/docs-content repo instead.
