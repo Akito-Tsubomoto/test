@@ -1,7 +1,7 @@
-name: 問い合わせ
-description: 問い合わせ用
+name: "問い合わせ"
+description: "問い合わせ用"
 labels:
-  - 問い合わせ
+  - "問い合わせ"
 body:
   - type: markdown
     attributes:
