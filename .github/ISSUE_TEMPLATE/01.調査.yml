@@ -1,6 +1,6 @@
-name: 問い合わせ
-description: 問い合わせ課題追加用
-labels: ["調査"]
+name: toiawase
+description: Make a suggestion to improve the content in an existing article.
+labels:
   - content
 body:
   - type: markdown
