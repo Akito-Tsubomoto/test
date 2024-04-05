@@ -24,14 +24,9 @@ body:
         【工数】
   validations:
     required: false
-- type: textarea
+- type: input
   attributes:
-    label: Environment
-    description: |
-      examples:
-        - **OS**: Ubuntu 20.04
-        - **Node**: 13.14.0
-        - **npm**: 7.6.3
+    label: 関連資料パス
     value: |
         - OS:
         - Node:
