@@ -6,13 +6,12 @@ body:
 - type: input
   attributes:
     label: 依頼日
-    description: A concise description of what you're experiencing.
+    description: 依頼のあった日づけ
   validations:
-    required: false
-- type: textarea
+    required: true
+- type: input
   attributes:
-    label: Expected Behavior
-    description: A concise description of what you expected to happen.
+    label: 依頼者
   validations:
     required: false
 - type: textarea
