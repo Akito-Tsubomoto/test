@@ -1,36 +1,35 @@
-name: "è²©å£²ç³»_å•ã„åˆã‚ã›"
-description: å•ã„åˆã‚ã›
-title: "<æ©Ÿèƒ½>_<äº‹è±¡>_(<ã‚­ãƒ¼æƒ…å ±>)"
-labels: ["å•ã„åˆã‚ã›","è²©å£²ç³»"]
+name: ”Ì”„Œn_–â‚¢‡‚í‚¹
+description: –â‚¢‡‚í‚¹
+title: "<‹@”\>_<–Û>_(<ƒL[î•ñ>)"
+labels: ["–â‚¢‡‚í‚¹","”Ì”„Œn"]
 body:
 - type: input
   attributes:
-    label: ä¾é ¼æ—¥
-    description: ä¾é ¼ã®ã‚ã£ãŸæ—¥ã¥ã‘
+    label: ˆË—Š“ú
+    description: ˆË—Š‚Ì‚ ‚Á‚½“ú‚Ã‚¯
   validations:
     required: true
 - type: input
   attributes:
-    label: ä¾é ¼è€…
+    label: ˆË—ŠÒ
   validations:
     required: false
 - type: textarea
   attributes:
-    label: å•ã„åˆã‚ã›å†…å®¹
-    placeholder: |
-       ãªã‚‹ã¹ãå…·ä½“çš„ã«è¨˜è¼‰ï¼ˆå·¥äº‹äºˆå®š)
+    label: –â‚¢‡‚í‚¹“à—e
     value: |
-        ã€å†…å®¹ã€‘
+        y“à—ez
         
-        ã€å·¥æ•°ã€‘
+        
+        yH”z
         
   validations:
     required: false
 - type: textarea
   attributes:
-    label: é–¢é€£è³‡æ–™ãƒ‘ã‚¹
+    label: ŠÖ˜A‘—¿ƒpƒX
     value: |
-         \\nlmnistky01\NisDoc\æ—¥è»½ãƒ‘ãƒãƒ«ã‚·ã‚¹ãƒ†ãƒ \00.ã‚·ã‚¹ãƒ†ãƒ å†æ§‹ç¯‰\99.éšœå®³å¯¾å¿œ\1.è²©å£²\00000.èª²é¡Œ
+         \\nlmnistky01\NisDoc\“úŒyƒpƒlƒ‹ƒVƒXƒeƒ€\00.ƒVƒXƒeƒ€Ä\’z\99.áŠQ‘Î‰\1.”Ì”„\00000.‰Û‘è
     render: markdown
   validations:
     required: false
