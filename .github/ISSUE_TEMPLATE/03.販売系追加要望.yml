@@ -1,7 +1,7 @@
-name: 販売系問い合わせ
-description: 問い合わせ
-title: "<機能>_<事象>_(<キー情報>)"
-labels: ["問い合わせ","販売系"]
+name: 販売系追加要望
+description: 追加要望
+title: "<機能>_<要望>"
+labels: ["追加要望","販売系"]
 body:
 - type: input
   attributes:
