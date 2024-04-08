@@ -19,10 +19,8 @@ body:
     label: 問い合わせ内容
     value: |
         【内容】
-        
-        
+
         【工数】
-        
   validations:
     required: false
 - type: textarea
