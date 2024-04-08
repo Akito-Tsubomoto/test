@@ -17,6 +17,8 @@ body:
 - type: textarea
   attributes:
     label: 問い合わせ内容
+    placeholder: |
+       なるべく具体的に記載（工事予定)
     value: |
         【内容】
         【工数】
