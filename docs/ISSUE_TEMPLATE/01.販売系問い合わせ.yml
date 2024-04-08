@@ -1,5 +1,5 @@
-name: 販売系_問い合わせ
-description: 問い合わせ
+name: "販売系_問い合わせ"
+description: "問い合わせ"
 title: "<機能>_<事象>_(<キー情報>)"
 labels: ["問い合わせ","販売系"]
 body:
@@ -21,7 +21,7 @@ body:
         【内容】
         【工数】
   validations:
-    required: false
+   required: false
 - type: textarea
   attributes:
     label: 関連資料パス
