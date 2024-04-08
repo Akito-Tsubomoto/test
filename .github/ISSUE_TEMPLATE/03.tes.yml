@@ -21,6 +21,8 @@ body:
        なるべく具体的に記載（工事予定)
     value: |
         【問い合わせ内容】
+
+        
         【工数】
   validations:
     required: false
