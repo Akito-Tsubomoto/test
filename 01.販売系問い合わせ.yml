@@ -1,0 +1,35 @@
+name: 販売系_問い合わせ
+description: 問い合わせ
+title: "<機能>_<事象>_(<キー情報>)"
+labels: ["問い合わせ","販売系"]
+body:
+- type: input
+  attributes:
+    label: 依頼日
+    description: 依頼のあった日づけ
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: 依頼者
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: 問い合わせ内容
+    value: |
+        【内容】
+        
+        
+        【工数】
+        
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: 関連資料パス
+    value: |
+         \\nlmnistky01\NisDoc\日軽パネルシステム\00.システム再構築\99.障害対応\1.販売\00000.課題
+    render: markdown
+  validations:
+    required: false
