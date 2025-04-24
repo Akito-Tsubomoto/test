@@ -1,7 +1,8 @@
-name: 販売問い合わせ
-description: 問い合わせ
+name: 販売系不具合系
+description: 不具合
 title: "<機能>_<事象>_(<キー情報>)"
-labels: ["問い合わせ","販売系"]
+labels: ["不具合","販売系"]
+projects: ["nisnikkeikin/19"]
 body:
 - type: input
   attributes:
@@ -20,15 +21,42 @@ body:
     placeholder: |
        なるべく具体的に記載（工事予定)
     value: |
-        【問い合わせ内容】
+        【内容】
         
-        【工数】
+  validations:
+    required: false
+- type: input
+  attributes:
+    label: 原因
+  validations:
+    required: false
+- type: input
+  attributes:
+    label: 対応
+  validations:
+    required: false
+- type: input
+  attributes:
+    label: 横展開
+    description: 発生している不具合は他にも同じような不具合が埋め込まれていることが多いです。類似の不具合がないかチェックしましょう。
+  validations: 
+    required: false
+- type: input
+  attributes:
+    label: 影響調査
+    description: 修正を入れるコードがどこから利用されているか。利用されている画面一通りのテストが必要になります。
+  validations: 
+    required: false
+- type: input
+  attributes:
+    label: 依頼元
+    description: 依頼元へのリンクをあったら貼る(Teams等)
   validations:
     required: false
 - type: textarea
   attributes:
     label: 関連資料パス
-    value: \\nlmnistky01\NisDoc\日軽パネルシステム\00.システム再構築\99.障害対応\1.販売\1.基本設計
+    value: \\nlmnistky01\第１システム\01.【日軽パネルシステム株式会社】\yyyy年度検収物件\運用\yyyymmdd_案件概要 || \\nlmnistky01\NisDoc\日軽パネルシステム\{オーダー番号}
     render: markdown
   validations:
     required: false
